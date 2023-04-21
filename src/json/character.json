@@ -1,0 +1,22 @@
+[
+    { 
+      "id": "1",
+      "name": "迪盧克",
+      "category": "蒙德",
+      "eye":"火",
+      "weapon":"雙手劍",
+      "level":"5",
+      "des":"晨曦酒莊的貴公子",
+      "image": "/images/char1"
+    },
+    { 
+      "id": "2",
+      "name": "雷電將軍",
+      "category": "稻妻",
+      "eye":"雷",
+      "weapon":"長柄武器",
+      "level":"5",
+      "des":"鳴神主尊大御所大人",
+      "image": "/images/char2"
+    }
+  ]

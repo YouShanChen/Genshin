@@ -1,0 +1,14 @@
+.header{
+    display: flex;
+    flex-direction: row;
+}
+.headerTitle{
+    font-size: 1.3rem;
+    padding: 2rem;
+
+}
+@media (min-width: 768px) {
+    .headerTitle {
+      font-size: 1.8rem;
+    }
+  }

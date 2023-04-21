@@ -7,21 +7,36 @@ export default function NavBar({ open, onClose }) {
 
     const NavBarContent = () => (
         <>
-            <NavLink to="/products/category/tableware"
+            <NavLink to="/"
                 className={({ isActive }) => (isActive ? styles.navItemActive : styles.navItem)}>
                 首頁
             </NavLink>
-            <NavLink to="/products/category/cookware"
+            <NavLink to="/Character"
                 className={({ isActive }) => (isActive ? styles.navItemActive : styles.navItem)}>
                 角色
             </NavLink>
-            <NavLink to="/products/category/home-accessories"
+            <NavLink to="/Team"
                 className={({ isActive }) => (isActive ? styles.navItemActive : styles.navItem)}>
                 隊伍
             </NavLink>     
         </>
     )
-
+    const DrawerContent = () =>(
+        <>
+            <NavLink to="/"
+                className={({ isActive }) => (isActive ? styles.drawerItemActive : styles.drawerItem)}>
+                首頁
+            </NavLink>
+            <NavLink to="/Character"
+                className={({ isActive }) => (isActive ? styles.drawerItemActive : styles.drawerItem)}>
+                角色
+            </NavLink>
+            <NavLink to="/Team"
+                className={({ isActive }) => (isActive ? styles.drawerItemActive : styles.drawerItem)}>
+                隊伍
+            </NavLink>     
+        </>
+    )
     return (
         <>
             <div className={styles.navBar}>
@@ -34,7 +49,7 @@ export default function NavBar({ open, onClose }) {
                 open={open} 
             >
                 <div className={styles.drawer}>
-                    <NavBarContent />
+                    <DrawerContent />
                 </div>
             </Drawer>
         </>
