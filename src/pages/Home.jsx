@@ -2,7 +2,7 @@ import { Helmet } from "react-helmet-async"
 import { theme } from 'antd';
 import Header from "../components/Header"
 import Footer from "../components/Footer"
-
+import News from "../components/News"
 function Home() {
   const {
     token: { colorBgBase, colorTextBase },
@@ -25,7 +25,7 @@ function Home() {
           title={title}
         />
         <div className="layoutContent container">
- 
+ <News />
         </div>
         <Footer className="layoutFooter" />
       </div>

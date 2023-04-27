@@ -18,5 +18,16 @@
       "level":"5",
       "des":"鳴神主尊大御所大人",
       "image": "/images/char2"
+    },
+    { 
+      "id": "4",
+      "name": "流浪者",
+      "category": "未知",
+      "eye":"風",
+      "weapon":"法器",
+      "level":"5",
+      "des":"身分成謎的修驗者，言行舉止卻不像修驗者的樣子",
+      "image": "/images/char4"
     }
+
   ]
